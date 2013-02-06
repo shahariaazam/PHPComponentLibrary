@@ -10,5 +10,5 @@ define('MEDIA_CLASS',SRC_DIR.DIRECTORY_SEPARATOR."Multimedia".DIRECTORY_SEPARATO
  * Running test usage
  */
 require MEDIA_CLASS;
-$obj = new MediaUpload();
+$obj = new Multimedia\Image\Upload\ImageUpload();
 var_dump($obj -> DirectoryPermission(ROOT));

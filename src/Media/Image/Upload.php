@@ -1,6 +1,6 @@
 <?php
-
-class MediaUpload
+namespace   Multimedia\Image\Upload;
+class ImageUpload
 {
     /**
      * @param null $path            Custom path where uploaded image will be stored
@@ -10,7 +10,7 @@ class MediaUpload
      *
      * @return string
      */
-    public function ImgUpload($path = null, $maximumSize = null, array $allowedType = null, $option = null)
+    public function uploadImage($path = null, $maximumSize = null, array $allowedType = [], $option = null)
     {
         if (isset($_POST['submit']))
         {
