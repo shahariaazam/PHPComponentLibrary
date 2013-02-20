@@ -1,6 +1,6 @@
 <?php
 
-namespace BrowserDetection;
+namespace Utility\Browser\BrowserDetection;
 
 use \Exception as BaseException;
 
@@ -846,7 +846,7 @@ class Exception extends BaseException
 }
 
 /*
-    $obj = new \BrowserDetection\BrowserDetection('browscap_ini');
+    $obj = new Utility\Browser\BrowserDetection\BrowserDetection('browscap_ini');
     $browser = $obj->getBrowser();
     print_r($browser);
     phpinfo();
